@@ -70,111 +70,133 @@
 
     <!-- Grid Container -->
         <div class="grid grid-cols-12 gap-7 mt-10">
-            <!-- Cards go here (no changes made to your card section) -->
-            <div class="col-span-12 md:col-span-4 hover:scale-105">
-                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full">
-                    <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/bruiloft.jpeg');">
-                      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-                    </div>
-                    <div class="absolute inset-0 flex flex-col justify-end p-6">
-                      <h3 class="text-xl font-semibold text-white">Bruiloft Anna & Peter</h3>
-                      <p class="text-sm mt-1 text-gray-200">Een magische dag vol liefde en geluk</p>
-                    </div>
-                    <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center">
-                        <i class="fa-solid fa-lock mr-3 text-pink-300"></i>
-                      <p class="text-pink-300">Privé</p>
-                    </div>
+            <div class="col-span-12 md:col-span-4 group">
+                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full transform transition-transform duration-500 ease-in-out group-hover:scale-105">
+                  <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/bruiloft.jpeg');">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-40"></div>
+                  </div>
+                  <div class="absolute inset-0 flex flex-col justify-end p-6">
+                    <h3 class="text-xl font-semibold text-white transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-2px]">
+                      Bruiloft Anna & Peter
+                    </h3>
+                    <p class="text-sm mt-1 text-gray-200 transition-opacity duration-500 ease-in-out group-hover:opacity-80">
+                      Een magische dag vol liefde en geluk
+                    </p>
+                  </div>
+                  <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-3px] group-hover:scale-105">
+                    <i class="fa-solid fa-lock mr-3 text-pink-300"></i>
+                    <p class="text-pink-300">Privé</p>
+                  </div>
                 </div>
-            </div>
+              </div>
+              
 
             <!-- Card 2 -->
-            <div class="col-span-12 md:col-span-4 hover:scale-105">
-                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full">
-                    <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/portret.jpeg');">
-                      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-                    </div>
-                    <div class="absolute inset-0 flex flex-col justify-end p-6">
-                      <h3 class="text-xl font-semibold text-white">Portretfotografie 2024</h3>
-                      <p class="text-sm mt-1 text-gray-200">Professionele portretfoto’s</p>
-                    </div>
-                    <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-purple-300">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
-                          </svg>                          
-                      <p class="text-purple-300">Openbaar</p>
-                    </div>
+            <div class="col-span-12 md:col-span-4 group">
+                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full transform transition-transform duration-500 ease-in-out group-hover:scale-105">
+                  <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/portret.jpeg');">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-40"></div>
+                  </div>
+                  <div class="absolute inset-0 flex flex-col justify-end p-6">
+                    <h3 class="text-xl font-semibold text-white transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-2px]">
+                      Portretfotografie 2024
+                    </h3>
+                    <p class="text-sm mt-1 text-gray-200 transition-opacity duration-500 ease-in-out group-hover:opacity-80">
+                      Profesionele portretfoto's
+                    </p>
+                  </div>
+                  <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-3px] group-hover:scale-105">
+                    <i class="fa-solid fa-lock mr-3 text-pink-300"></i>
+                    <p class="text-pink-300">Privé</p>
+                  </div>
                 </div>
-            </div>
+              </div>
 
             <!-- Card 3 -->
-            <div class="col-span-12 md:col-span-4 hover:scale-105">
-                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full">
+            <div class="col-span-12 md:col-span-4 group">
+                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full transform transition-transform duration-500 ease-in-out group-hover:scale-105">
                     <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/landschappen.jpeg');">
-                      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-                    </div>
-                    <div class="absolute inset-0 flex flex-col justify-end p-6">
-                      <h3 class="text-xl font-semibold text-white">Landschappen 2017</h3>
-                      <p class="text-sm mt-1 text-gray-200">Het mooie Nederland</p>
-                    </div>
-                    <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-purple-300">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
-                          </svg>                          
-                      <p class="text-purple-300">Openbaar</p>
-                    </div>
+                    <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-40"></div>
+                  </div>
+                  <div class="absolute inset-0 flex flex-col justify-end p-6">
+                    <h3 class="text-xl font-semibold text-white transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-2px]">
+                      Landschappen Nederland
+                    </h3>
+                    <p class="text-sm mt-1 text-gray-200 transition-opacity duration-500 ease-in-out group-hover:opacity-80">
+                      Het mooie Nederland
+                    </p>
+                  </div>
+                  <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-3px] group-hover:scale-105">
+                    <i class="fa-solid fa-lock mr-3 text-pink-300"></i>
+                    <p class="text-pink-300">Privé</p>
+                  </div>
                 </div>
-            </div>
+              </div>
 
             <!-- Card 4 -->
-            <div class="col-span-12 md:col-span-4 hover:scale-105 mt-5">
-                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full">
-                    <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/IT.jpeg');">
-                      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-                    </div>
-                    <div class="absolute inset-0 flex flex-col justify-end p-6">
-                      <h3 class="text-xl font-semibold text-white">Bruiloft Anna & Peter</h3>
-                      <p class="text-sm mt-1 text-gray-200">Een magische dag vol liefde en geluk</p>
-                    </div>
-                    <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center">
-                        <i class="fa-solid fa-lock mr-3 text-pink-300"></i>
-                      <p class="text-pink-300">Privé</p>
-                    </div>
+            <div class="col-span-12 md:col-span-4 group">
+                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full transform transition-transform duration-500 ease-in-out group-hover:scale-105">
+                  <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/IT.jpeg');">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-40"></div>
+                  </div>
+                  <div class="absolute inset-0 flex flex-col justify-end p-6">
+                    <h3 class="text-xl font-semibold text-white transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-2px]">
+                      Bedrijfsreportage TechCo
+                    </h3>
+                    <p class="text-sm mt-1 text-gray-200 transition-opacity duration-500 ease-in-out group-hover:opacity-80">
+                      Samenvatting reportage TechCo
+                    </p>
+                  </div>
+                  <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-3px] group-hover:scale-105">
+                    <i class="fa-solid fa-lock mr-3 text-pink-300"></i>
+                    <p class="text-pink-300">Privé</p>
+                  </div>
                 </div>
-            </div>
+              </div>
 
             <!-- Card 5 -->
-            <div class="col-span-12 md:col-span-4 hover:scale-105 mt-5">
-                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full">
-                    <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/Dans.jpg');">
-                      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-                    </div>
-                    <div class="absolute inset-0 flex flex-col justify-end p-6">
-                      <h3 class="text-xl font-semibold text-white">Bruiloft Anna & Peter</h3>
-                      <p class="text-sm mt-1 text-gray-200">Een magische dag vol liefde en geluk</p>
-                    </div>
-                    <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center">
-                        <i class="fa-solid fa-lock mr-3 text-pink-300"></i>
-                      <p class="text-pink-300">Privé</p>
-                    </div>
+            <div class="col-span-12 md:col-span-4 group">
+                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full transform transition-transform duration-500 ease-in-out group-hover:scale-105">
+                  <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/Dans.jpg');">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-40"></div>
+                  </div>
+                  <div class="absolute inset-0 flex flex-col justify-end p-6">
+                    <h3 class="text-xl font-semibold text-white transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-2px]">
+                      UDO NK 2024
+                    </h3>
+                    <p class="text-sm mt-1 text-gray-200 transition-opacity duration-500 ease-in-out group-hover:opacity-80">
+                      NK Dansen
+                    </p>
+                  </div>
+                  <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-3px] group-hover:scale-105">
+                    <i class="fa-solid fa-lock mr-3 text-pink-300"></i>
+                    <p class="text-pink-300">Privé</p>
+                  </div>
                 </div>
-            </div>
+              </div>
 
             <!-- Card 6 -->
-            <div class="col-span-12 md:col-span-4 hover:scale-105 mt-5">
-                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full">
-                    <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/School.webp');">
-                      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-                    </div>
-                    <div class="absolute inset-0 flex flex-col justify-end p-6">
-                      <h3 class="text-xl font-semibold text-white">Bruiloft Anna & Peter</h3>
-                      <p class="text-sm mt-1 text-gray-200">Een magische dag vol liefde en geluk</p>
-                    </div>
-                    <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center">
-                        <i class="fa-solid fa-lock mr-3 text-pink-300"></i>
-                      <p class="text-pink-300">Privé</p>
-                    </div>
+            <div class="col-span-12 md:col-span-4 group">
+                <div class="relative bg-black text-white rounded-lg overflow-hidden shadow-lg w-full transform transition-transform duration-500 ease-in-out group-hover:scale-105">
+                  <div class="relative h-72 bg-cover bg-center" style="background-image: url('../assets/images/School.webp');">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-40"></div>
+                  </div>
+                  <div class="absolute inset-0 flex flex-col justify-end p-6">
+                    <h3 class="text-xl font-semibold text-white transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-2px]">
+                      Schoolfoto's Abt Emo
+                    </h3>
+                    <p class="text-sm mt-1 text-gray-200 transition-opacity duration-500 ease-in-out group-hover:opacity-80">
+                        School Abt Emo
+                    </p>
+                  </div>
+                  <div class="absolute bottom-10 right-4 text-white text-md font-medium rounded-full px-3 py-1 flex items-center transition-transform duration-500 ease-in-out transform group-hover:translate-y-[-3px] group-hover:scale-105">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-purple-300">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+                      </svg>                          
+                  <p class="text-purple-300">Openbaar</p>
                 </div>
-            </div>
+                </div>
+              </div>
         </div>
     </div>
 </body>
