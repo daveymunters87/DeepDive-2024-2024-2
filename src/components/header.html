@@ -1,17 +1,43 @@
-<nav class="bg-[#264653] relative">
-    <div class="container flex items-center justify-center p-3 mx-auto text-white">
-        <a href="#" class="border-b-2 border-transparent mx-6 sm:mx-10 text-xl">Home</a>
-        <a href="#" class="border-b-2 border-transparent hover:border-white mx-6 sm:mx-10 text-xl">Over mij</a>
-        <a href="#" class="border-b-2 border-transparent hover:border-white mx-6 sm:mx-10 text-xl">Services</a>
-        <a href="#" class="border-b-2 border-transparent  mx-6 sm:mx-10">
-            <img src="../assets/images/Logo-wit.png" alt="Pricing" class="w-48">
+<nav class="relative bg-gradient-to-r from-[#264653] to-[#1f756b] shadow-lg backdrop-blur-md bg-opacity-90">
+    <div class="container flex items-center justify-between py-4 px-8 mx-auto text-white">
+        <!-- Logo Section -->
+        <a href="#" class="flex items-center">
+            <img src="../assets/images/Logo-wit.png" alt="Logo" class="w-40">
         </a>
-        <a href="#" class="border-b-2 border-transparent hover:border-white mx-6 sm:mx-10 text-xl">Collecties</a>
-        <a href="#" class="border-b-2 border-transparent hover:border-white mx-6 sm:mx-10 text-xl">Blog</a>
-        <a href="#" class="border-b-2 border-transparent hover:border-white mx-6 sm:mx-10 text-xl">Contact</a>
+
+        <!-- Navigation Links -->
+        <div class="flex items-center space-x-10 text-lg font-semibold tracking-wider">
+            <a href="#" class="relative group">
+                <span class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Home</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+            </a>
+            <a href="#" class="relative group">
+                <span class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Over mij</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+            </a>
+            <a href="#" class="relative group">
+                <span class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Services</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+            </a>
+            <a href="#" class="relative group">
+                <span class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Collecties</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+            </a>
+            <a href="#" class="relative group">
+                <span class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Blog</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+            </a>
+            <a href="#" class="relative group">
+                <span class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Contact</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+            </a>
+        </div>
+
+        <!-- Shopping Cart -->
+        <div class="relative flex items-center">
+            <a href="#" class="relative flex items-center justify-center w-12 h-12 bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full transition duration-300 ease-in-out">
+                <i class="fas fa-shopping-cart text-white text-2xl"></i>
+            </a>
+        </div>
     </div>
-    <!-- Shopping Cart Icon -->
-    <a href="#" class="absolute top-6 sm:right-24">
-        <i class="fas fa-shopping-cart text-white text-xl"></i>
-    </a>
 </nav>
