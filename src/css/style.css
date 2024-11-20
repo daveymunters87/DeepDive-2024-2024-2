@@ -2,3 +2,28 @@
     max-width: calc(12 * 70px + 11 * 30px);
     margin: 0 auto; 
   }
+  
+    .card img {
+        width: 100%; /* Full width */
+        height: 200px; /* Fixed height */
+        object-fit: cover; /* Ensures the image fills the container proportionally */
+        border-radius: 8px; /* Optional for rounded corners */
+    }
+    .card {
+        max-width: 300px; /* Consistent card width */
+        background: white; /* Background color for cards */
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        display: flex;
+        flex-direction: column; /* Stack content vertically */
+    }
+    .card .content {
+        padding: 16px; /* Spacing inside the card */
+        flex-grow: 1; /* Ensures consistent spacing for text */
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+        gap: 16px; /* Space between cards */
+    }
