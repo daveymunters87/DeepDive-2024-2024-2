@@ -14,7 +14,7 @@ async function fetchPhotos() {
 
                 <!-- Content -->
                 <div class="px-4 py-2 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-2 truncate">${photo.description || 'Beautiful Landscape'}</h3>
+                    <h3 class="font-bold text-lg mb-2 truncate">Beautiful Landscape</h3>
                     <p class="text-gray-500 text-sm flex-grow">${photo.alt_description || 'A stunning view of nature'}</p>
                     <p class="text-gray-700 font-semibold mt-2">Free</p>
                 </div>
