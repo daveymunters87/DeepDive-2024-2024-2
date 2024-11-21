@@ -40,23 +40,21 @@ src/
 │   ├── public.html    # Publieke galerijpagina
 │   ├── shop.html      # Shop-pagina
 README.md              # Documentatie
+```
 
-Hoe te gebruiken
-Kloon de repository:
-
-bash
-Copy code
-git clone git@github.com:daveymunters87/DeepDive-2024-2024-2.git
-Navigeer naar de map:
-
-bash
-Copy code
+## **Hoe te gebruiken**
+ 1. **Kloon** de repository:
+```
+  git clone git@github.com:daveymunters87/DeepDive-2024-2024-2.git
+```
+2. **Navigeer** naar de map:
+```
 cd DeepDive-2024-2024-2
-Open index.html in de browser: Dit is de startpagina van de webshop.
+```
+ 3. **Open** index.html in de browser: Dit is de startpagina van de webshop.
 
-Bezoek shop.html: Hier kunnen gebruikers foto’s bekijken, selecteren en kopen.
 
-Bijdragers
-Davey
-Cristian
-Joey
+## **Bijdragers**
+ - Davey
+ - Cristian
+ - Joey
