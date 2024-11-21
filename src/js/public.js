@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const accessKey = "47182019-4f38c6a7438bc3b7540110456";
         try {
             const response = await fetch(
-                `https://pixabay.com/api/?key=${accessKey}&image_type=photo&category=people`
+                `https://pixabay.com/api/?key=${accessKey}&image_type=photo&category=landscape`
             );
             const data = await response.json();
 
