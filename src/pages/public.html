@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/decc07a60c.js" crossorigin="anonymous"></script>
+    <script defer src="../js/public.js"></script>
+    <script defer src="../js/offerte.js"></script>
+    <title>Albums</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="https://kit.fontawesome.com/decc07a60c.js" crossorigin="anonymous"></script>
+    </head>
+    <nav class="relative bg-gradient-to-r from-[#264653] to-[#1f756b] shadow-lg backdrop-blur-md bg-opacity-90">
+        <div class="container flex items-center justify-between py-4 px-8 mx-auto text-white">
+            <!-- Logo Section -->
+            <a href="#" class="flex items-center">
+                <img src="../assets/images/Logo-wit.png" alt="Logo" class="w-40">
+            </a>
+
+            <!-- Navigation Links -->
+            <div class="flex items-center space-x-10 text-lg font-semibold tracking-wider">
+                <a href="#" class="relative group">
+                    <span
+                        class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Home</span>
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+                </a>
+                <a href="#" class="relative group">
+                    <span
+                        class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Over
+                        mij</span>
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+                </a>
+                <a href="#" class="relative group">
+                    <span
+                        class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Services</span>
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+                </a>
+                <a href="index.html" class="relative group">
+                    <span
+                        class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Collecties</span>
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+                </a>
+                <a href="#" class="relative group">
+                    <span
+                        class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Blog</span>
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+                </a>
+                <a href="#" class="relative group">
+                    <span
+                        class="border-b-2 border-transparent group-hover:border-white transition-all duration-300 ease-in-out">Contact</span>
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-500 ease-in-out"></span>
+                </a>
+            </div>
+
+            <!-- Shopping Cart -->
+            <!-- Shopping Cart -->
+<div class="relative flex items-center">
+    <button id="cart-toggle"
+        class="relative flex items-center justify-center w-12 h-12 bg-white bg-opacity-10 hover:bg-opacity-20 rounded-full transition duration-300 ease-in-out">
+        <i class="fas fa-shopping-cart text-white text-2xl"></i>
+    </button>
+</div>
+
+        </div>
+    </nav>
+
+
+    <!-- Cart Sidebar -->
+<div id="cart-sidebar" class="fixed top-0 right-0 h-full w-96 bg-white shadow-lg transform translate-x-full transition-transform duration-300 z-50">
+    <div class="flex justify-between items-center p-4 border-b">
+        <h2 class="text-lg font-bold">Winkelwagen</h2>
+        <button id="close-cart" class="text-gray-500 hover:text-gray-800">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+    <div id="cart-items" class="p-4 space-y-4 overflow-y-auto h-[75%]">
+        <p class="text-gray-500 text-center">Your cart is empty.</p>
+    </div>
+    <div class="p-4 border-t">
+        <div class="flex justify-between items-center mb-4">
+            <p class="font-semibold">Subtotaal</p>
+            <p id="cart-subtotal" class="font-bold">€0.00</p>
+        </div>
+        <a href="checkout.html" id="checkout-button" class="w-full py-3 bg-[#264653] text-white font-semibold rounded-lg hover:bg-[#1f756b] transition text-center block">
+            Naar Betalen
+        </a>        
+    </div>
+</div>
+
+    <div class="mx-24 space-y-4">
+        <!-- Breadcrumb -->
+        <button class="flex items-center space-x-2 pt-12" aria-label="Breadcrumb">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="grey"
+                class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+            </svg>
+            <a href="index.html"
+                class="text-sm font-medium text-gray-500 md:ms-2 hover:text-gray-700 transition duration-200">
+                Terug naar collecties
+            </a>
+        </button>
+
+        <!-- Title and Button Section -->
+        <div class="text-left  p-6 rounded-lg">
+            <p class="text-2xl font-bold text-gray-800 mb-4">Portretfotografie 2024</p>
+            <button id="offerte-button"
+                class="py-3 px-8 bg-[#264653] text-white font-semibold text-lg rounded-lg shadow-md hover:bg-[#1f756b] transition duration-300">
+                Collectie kopen?
+            </button>
+        </div>
+    </div>  
+
+    <div class="container mx-auto py-12 px-6">
+        <div class="grid grid-cols-3 gap-6" id="photo-grid"></div>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
